@@ -56,7 +56,7 @@
 * [ ] API Quatiliy & Documentation
 
   * [ ] API Features
-    * [ ] Swagger / OpenAPI
+    * [ ] OpenAPI Scalar
     * [ ] XML Comments
     * [ ] DTOs
     * [ ] AutoMapper
@@ -64,8 +64,8 @@
     * [ ] Content Negotiation
   * [ ] API Managment
     * [ ] Request Standardization
-* [ ] Core Services
 
+* [ ] Core Services
   * [ ] Essentials
     * [ ] Email Service (smtp)
     * [ ] File Storage Service (local + cloud)
@@ -86,12 +86,15 @@
     * [ ] Integration Test
     * [ ] Test Data Builds
     * [ ] Database Testing
+
+
 * [ ] Devops & Deployment
 
   * [ ] Containerization
     * [ ] Dockerfile
     * [ ] docker compose
     * [ ] docker health checker
+
 * [ ] SAAS Features
 
   * [ ] Multi-Tenancy
