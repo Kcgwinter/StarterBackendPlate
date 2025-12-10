@@ -6,7 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CoreApi.Controllers
 {
-    public class CoreController : BaseApiController
+
+    public class CoreController(ILogger<Program> logger) : BaseApiController
     {
         [HttpGet("/")]
         public IActionResult Get()
@@ -17,7 +18,7 @@ namespace CoreApi.Controllers
         [HttpGet("/health")]
         public IActionResult HealthCheck()
         {
-
+            logger.LogInformation("Health Check called");
             // Functions to check
             // DB Connection
             // Authentication
